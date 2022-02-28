@@ -2,7 +2,7 @@ class Detector{
 
     /* 
         Collision detection functionality
-        Ok, this looks way worse than it is. It's basically sees everythings
+        Ok, this looks way worse than it is. It basically sees everythings
         as a square and verifies, corner by corner, side by side, if the elements
         me (not me me, but me the element) and the other element have collided.
     */
