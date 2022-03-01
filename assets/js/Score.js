@@ -9,7 +9,7 @@ class Score{
     }
 
     update(){
-        this.context.fillText(`${this.points}`.padStart(5, 0), this.x, this.y);
+        this.context.fillText(`${this.points.toString().padStart(5, 0), this.x, this.y)} Microleons` ;
         this.context.font = "80px sans-serif";
         this.context.fillStyle = "Yellow"
         return this
